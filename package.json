@@ -3,7 +3,7 @@
   "version": "0.4.0",
   "description": "Node.js wrapper for Variety - MongoDB Schema Analyser",
   "main": "variety-cli.js",
-  "homepage": "https://github.com/variety/variety-cli",
+  "homepage": "https://github.com/reactual/variety-cli",
   "bin": {
     "variety": "./variety-cli.js"
   },
@@ -19,7 +19,7 @@
   "author": "Tomas Dvorak <todvora@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/variety/variety-cli/issues"
+    "url": "https://github.com/reactual/variety-cli/issues"
   },
   "dependencies": {
     "minimist": "^1.1.1",

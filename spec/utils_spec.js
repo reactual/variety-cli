@@ -44,10 +44,10 @@ describe(__filename, function () {
 
   it('should download and save some file from given url', function (done) {
 
-    var varietyUrl = 'https://raw.githubusercontent.com/variety/variety/master/variety.js';
+    var varietyUrl = 'https://raw.githubusercontent.com/reactual/variety/master/variety.js';
 
     nock('https://raw.githubusercontent.com')
-      .get('/variety/variety/master/variety.js')
+      .get('/reactual/variety/master/variety.js')
       .reply(200, 'dummy variety lib content');
 
     var target = tmp.fileSync();
